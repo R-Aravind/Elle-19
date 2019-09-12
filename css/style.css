@@ -14,6 +14,11 @@ body {
     font-family: "Open Sans", Sans-serif;
 }
 
+.round-btn{
+    border-radius:50px !important;
+    transition: 0.3s;
+}
+
 h1,
 h2,
 h3,
@@ -91,7 +96,7 @@ section {
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 1px;
-	color:rgba(253, 131, 196, 0.76)
+	color:rgba(253, 131, 196, 0.76);
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
 	color: #FF1493;
