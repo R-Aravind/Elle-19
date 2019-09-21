@@ -49,7 +49,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 ::selection {
     text-shadow: none;
-    background: #FF1493;
+    background: #ff8396;
 }
 
 @media (min-width: 768px) {
@@ -81,15 +81,18 @@ section {
 .navbar-default .navbar-collapse {
 	border-color: rgba(23,15,53)
 }
+.navbar-default .navbar-collapse .logo{
+    filter: invert(100%);
+}
 .navbar-default .navbar-toggle {
-	background-color: #FF1493;
-	border-color: #FF1493
+	background-color: #ff8396;
+	border-color: #ff8396;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: #FF1493
+	background-color: #ff8396;
 }
 .navbar-default .nav li a {
 	font-family: "Roboto",sans-serif;
@@ -99,14 +102,14 @@ section {
 	color:rgba(253, 131, 196, 0.76);
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-	color: #FF1493;
+	color: #ff8396;
 	outline: 0
 }
 
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: #FF1493
+	background-color: #ff8396
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
@@ -119,6 +122,7 @@ section {
 
 .navbar-default .navbar-nav .logo {
     height: 40px;
+    
 }
 
 @media (min-width:768px) {
@@ -154,7 +158,7 @@ section {
 --------------------*/
 
 header {
-    background-image: url(../images/demo/bg-main.jpg);
+    
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -166,16 +170,29 @@ header {
     color: rgba(23,15,53);
 }
 
+header .container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+   
+
+}
+
 header .intro-text {
     background-image: url(../images/demo/bg-main.jpg);
-    background-size: contain;
+    background-size: cover;
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
 @media (min-width: 768px) {
     header{
-        background-color: rgb(248, 155, 204);
+        background-color: rgb(255, 234, 245);
+    }
+    header .container{
+        background-image: url(../images/demo/bg-main.jpg);
+        padding: 0px;
+        width:1366px;
     }
 	header .intro-text {
 	    padding-top: 300px;
@@ -202,7 +219,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    text-transform: uppercase;
+    /*! text-transform: uppercase; */
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
@@ -211,7 +228,7 @@ header .intro-text .intro-heading {
 
 @media (min-width: 768px) {
 	header .intro-text .intro-heading {
-	    text-transform: uppercase;
+	    /*! text-transform: uppercase; */
 	    font-weight: 700;
 	    font-size: 75px;
 	    line-height: 75px;
@@ -476,7 +493,7 @@ footer p {
 
 
 footer p span {
-    color: #FF1493;
+    color: #ff8396;
     font-size: 10px;
     letter-spacing: 1px;
     font-weight: 700;
@@ -516,7 +533,7 @@ font-size: 11px;
 }
 
 .modal-works span {
-	background-color: #FF1493;
+	background-color: #ff8396;
     margin-right: 15px;
     padding: 5px 10px;
 }
@@ -533,8 +550,8 @@ font-size: 11px;
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
-    background-color: #FF1493;
-    border-color: #FF1493;
+    background-color: #ff8396;
+    border-color: #ff8396;
 }
 
 .btn {
@@ -595,7 +612,7 @@ font-size: 11px;
     transition: 1s;
 }
 #back-top a:hover {
-    background: #FF1493;
+    background: #ff8396;
 }
 /* arrow icon (span tag) */
 #back-top i {
