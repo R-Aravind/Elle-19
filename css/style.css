@@ -12,6 +12,7 @@
 body {
   margin: 0px;
     font-family: "Open Sans", Sans-serif;
+    overflow-x: hidden;
 }
 
 .round-btn{
