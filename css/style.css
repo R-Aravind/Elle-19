@@ -705,6 +705,11 @@ footer p span {
     .text-center,
     .col-md-4 {} */
 
+    header,
+    section {
+        overflow-x: hidden;
+    }
+
     .navbar-default .navbar-collapse .logo {
         filter: invert(100%);
     }
