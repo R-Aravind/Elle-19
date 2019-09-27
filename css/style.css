@@ -76,7 +76,7 @@ section {
 
 .navbar-default {
     background-color: rgba(23, 15, 53);
-    border-color: transparent
+    border-color: transparent;
 }
 
 .navbar-default .navbar-brand {
@@ -115,6 +115,7 @@ section {
 }
 
 .navbar-default .nav li a {
+    height: 100%;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     font-weight: 400;
@@ -146,7 +147,6 @@ section {
 
 .navbar-default .navbar-nav .logo {
     height: 40px;
-
 }
 
 @media (min-width:768px) {
@@ -281,8 +281,12 @@ header .intro-text .intro-heading {
     margin: auto;
 }
 
-.elle {
-    padding: 100px;
+.sponser-elle {
+    padding: 40px;
+}
+
+.why-elle {
+    padding: 40px;
 }
 
 /*--------------------
@@ -686,8 +690,32 @@ footer p span {
     }
 }
 
+/* ADDITIONAL CHANGES */
+
+/* @media only screen and (min-width : 768px) {
+    .navbar-default .navbar-nav .navbar-right a {
+        padding-top: 40px;
+    }
+} */
+
 @media only screen and (max-width : 767px) {
+
+
+    /* .section-title,
+    .text-center,
+    .col-md-4 {} */
+
     .navbar-default .navbar-collapse .logo {
         filter: invert(100%);
+    }
+
+    .container-fluid>.navbar-collapse,
+    .container-fluid>.navbar-header,
+    .container>.navbar-collapse,
+    .container>.navbar-header {
+        margin-right: 18px;
+        margin-left: 10px;
+        border: none;
+        box-shadow: none;
     }
 }
