@@ -698,6 +698,7 @@ footer p span {
     }
 } */
 
+/* MOBILE */
 @media only screen and (max-width : 767px) {
 
 
@@ -725,7 +726,18 @@ footer p span {
     }
 }
 
+/* BUG FIX */
 @media only screen and (min-width : 1200px) {
+
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-static-top .navbar-collapse {
+        padding-right: 50px;
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (min-width:768px) {
 
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse,
@@ -738,3 +750,14 @@ footer p span {
 section {
     background-color: #f8f8f8;
 }
+
+/* PC */
+/* @media only screen and (min-width : 992px) {
+    .img-responsive {
+        background-color: #f8f8f8;
+        height: 500px;
+        margin: 0 auto;
+        object-fit: contain;
+        text-align: center;
+    }
+} */
