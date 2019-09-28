@@ -745,6 +745,10 @@ footer p span {
         padding-right: 50px;
         padding-left: 40px;
     }
+
+    section {
+        padding: 30px 0;
+    }
 }
 
 section {
