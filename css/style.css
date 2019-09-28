@@ -214,7 +214,7 @@ header .intro-text {
 
 @media (min-width: 768px) {
     header {
-        background-color: rgb(255, 234, 245);
+        background-color: #FEE7E8;
     }
 
     header .container {
